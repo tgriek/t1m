@@ -1,0 +1,4 @@
+services:
+  web:
+    build: .
+    command: --port 8080 --mimetypes /var/www/localhost/htdocs/mime.types --index README.md
